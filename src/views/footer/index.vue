@@ -17,14 +17,8 @@
       </div>
       <div class="button-row">
         <div class="home-div">
-          <div class="home-div1">
-          </div>
-          <div class="home-div1">
-          </div>
-          <div class="home-div2">
             <button class="button home-button button-with-icon" @click="gotoHome('Button 5')">
               返回主页</button>
-          </div>
         </div>
 
 
@@ -189,7 +183,7 @@
     background-image: url('../../assets/button/home.png'); /* 设置图标路径 */  
     background-position: left center; /* 设置图标位置 */  
     background-repeat: no-repeat; /* 不重复背景图片 */  
-    background-size: 33px 33px; /* 设置图标大小 */  
+    background-size: 61px 47px; /* 设置图标大小 */  
     border: none; /* 移除边框 */  
     border-radius: 5px; /* 添加圆角 */  
     cursor: pointer; /* 鼠标悬停时变为小手形状 */  
@@ -233,10 +227,6 @@
 .home-div {  
   display: flex;
 }  
-.home-div1{
-  flex:1;
-  width:250px;
-}
 .home-div2{
   width:214px;
 }
@@ -254,15 +244,15 @@
  background-color: #7cc4d6;
   color: #4699ae;  
   margin: 0; 
-  width:214px;
-  font-size: 20px;
+  width:277px;
+  font-size: 28px;
   letter-spacing: 10px;
   text-shadow:
     -1px -1px 0 #fff,  
      1px -1px 0 #fff,
     -1px 1px 0 #fff,
      1px 1px 0 #fff; /* 阴影模拟边框 */
-  padding: 10px; /* 文字周围的填充，可以增加白边的大小 */
+  padding: 12px; /* 文字周围的填充，可以增加白边的大小 */
   
 }  
   
@@ -272,7 +262,6 @@
 /* .button:hover {  
   background-color: #63bcd3;
 }   */
-
 
 .home-button .fas { /* 可能需要调整选择器来正确应用样式 */  
     /* 添加与图标相关的样式，例如间距、大小等 */  
