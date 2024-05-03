@@ -92,15 +92,15 @@
 .book-button .button-icon {  
   display: block;  
   position: absolute;  
-  top: -49px; /* 根据需要调整图标与按钮顶部的距离 */  
+  top: -77px; /* 根据需要调整图标与按钮顶部的距离 */  
   left: 50%;  
   transform: translateX(-50%); /* 水平居中图标 */  
-  width: 60px; /* 图标宽度 */  
-  height: 60px; /* 图标高度 */  
+  width: 92px; /* 图标宽度 */  
+  height: 92px; /* 图标高度 */  
   border-radius: 50%; /* 圆形图标 */  
   background-color: #7de0f9; /* 示例颜色，当图片加载失败时显示 */  
-  background-image: url('../../assets/button/book1.jpg');  
-  background-size: contain; /* 保持图片的宽高比 */  
+  background-image: url('../../assets/button/book2.png');  
+  background-size: 60px; /* 保持图片的宽高比 */  
   background-position: center; /* 确保图片在元素内居中 */  
   background-repeat: no-repeat; /* 不重复图片 */  
     
@@ -108,54 +108,62 @@
 .pic-button .button-icon {  
   display: block;  
   position: absolute;  
-  top: -49px; /* 根据需要调整图标与按钮顶部的距离 */  
+  top: -77px; /* 根据需要调整图标与按钮顶部的距离 */  
   left: 50%;  
   transform: translateX(-50%); /* 水平居中图标 */  
-  width: 60px; /* 图标宽度 */  
-  height: 60px; /* 图标高度 */  
+  width: 92px; /* 图标宽度 */  
+  height: 92px; /* 图标高度 */  
   border-radius: 50%; /* 圆形图标 */  
   background-color: #7de0f9; /* 示例颜色，你可以使用背景图片 */  
-  background-image: url('../../assets/button/book3.webp');  
-  background-size: cover;  
+  background-image: url('../../assets/button/huazuo8.png');  
+  background-size: 60px; /* 保持图片的宽高比 */  
+  background-position: center; /* 确保图片在元素内居中 */  
+  background-repeat: no-repeat; /* 不重复图片 */  
 } 
 .custom-button .button-icon {  
   display: block;  
   position: absolute;  
-  top: -49px; /* 根据需要调整图标与按钮顶部的距离 */  
+  top: -77px; /* 根据需要调整图标与按钮顶部的距离 */  
   left: 50%;  
   transform: translateX(-50%); /* 水平居中图标 */  
-  width: 60px; /* 图标宽度 */  
-  height: 60px; /* 图标高度 */  
+  width: 92px; /* 图标宽度 */  
+  height: 92px; /* 图标高度 */  
   border-radius: 50%; /* 圆形图标 */  
   background-color: #7de0f9; /* 示例颜色，你可以使用背景图片 */  
-  /* background-image: url('../../assets/button/book.jpg');   */
-  background-size: cover;  
+  background-image: url('../../assets/button/xisu.png');  
+  background-size: 55px; /* 保持图片的宽高比 */  
+  background-position: center; /* 确保图片在元素内居中 */  
+  background-repeat: no-repeat; /* 不重复图片 */  
 } 
 .poetry-button .button-icon {  
   display: block;  
   position: absolute;  
-  top: -49px; /* 根据需要调整图标与按钮顶部的距离 */  
+  top: -77px; /* 根据需要调整图标与按钮顶部的距离 */  
   left: 50%;  
   transform: translateX(-50%); /* 水平居中图标 */  
-  width: 60px; /* 图标宽度 */  
-  height: 60px; /* 图标高度 */  
+  width: 92px; /* 图标宽度 */  
+  height: 92px; /* 图标高度 */   
   border-radius: 50%; /* 圆形图标 */  
   background-color: #7de0f9; /* 示例颜色，你可以使用背景图片 */  
-  /* background-image: url('../../assets/button/book.jpg');   */
-  background-size: cover;  
+  background-image: url('../../assets/button/shici.png');  
+  background-size: 75px; /* 保持图片的宽高比 */  
+  background-position: center; /* 确保图片在元素内居中 */  
+  background-repeat: no-repeat; /* 不重复图片 */  
 } 
 .intro-button .button-icon {  
   display: block;  
   position: absolute;  
-  top: -49px; /* 根据需要调整图标与按钮顶部的距离 */  
+  top: -77px; /* 根据需要调整图标与按钮顶部的距离 */  
   left: 50%;  
   transform: translateX(-50%); /* 水平居中图标 */  
-  width: 60px; /* 图标宽度 */  
-  height: 60px; /* 图标高度 */  
+  width: 92px; /* 图标宽度 */  
+  height: 92px; /* 图标高度 */   
   border-radius: 50%; /* 圆形图标 */  
   background-color: #7de0f9; /* 示例颜色，你可以使用背景图片 */  
-  /* background-image: url('../../assets/button/book.jpg');   */
-  background-size: cover;  
+  background-image: url('../../assets/button/intro.png');  
+  background-size: 45px; /* 保持图片的宽高比 */  
+  background-position: center; /* 确保图片在元素内居中 */  
+  background-repeat: no-repeat; /* 不重复图片 */  
 } 
 
  
@@ -203,16 +211,16 @@
     justify-content: space-between; /* 根据需要调整对齐方式 */  
     align-items: center; /* 垂直居中按钮 */  
     margin-bottom: 10px; /* 底部间距 */  
-    padding-top:56px;
+    padding-top:91px;
   }  
 .button {  
   /* 这里你可以根据图片中按钮的样式来调整 */  
   border: none;  
-  padding: 11px 44px;  
+  padding: 10px 86px;  
   text-align: center;  
   text-decoration: none;  
   display: inline-block;  
-  font-size: 16px;  
+  font-size: 24px;  
   margin: 0 13px; /* 左右间距 */  
   cursor: pointer;  
   border-radius: 28px; /* 圆角 */  
