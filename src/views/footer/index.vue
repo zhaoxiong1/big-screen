@@ -50,7 +50,7 @@
     },  
     gotoHome() {  
       // 处理触摸结束事件  
-      console.log(`Home button clicked.`);
+      this.$router.push('/');  
     },  
   },
 };
