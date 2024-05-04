@@ -93,7 +93,7 @@
   height: 92px; /* 图标高度 */  
   border-radius: 50%; /* 圆形图标 */  
   background-color: #7de0f9; /* 示例颜色，当图片加载失败时显示 */  
-  background-image: url('../../assets/button/book2.png');  
+  background-image: url('../assets/button/book2.png');  
   background-size: 60px; /* 保持图片的宽高比 */  
   background-position: center; /* 确保图片在元素内居中 */  
   background-repeat: no-repeat; /* 不重复图片 */  
@@ -109,7 +109,7 @@
   height: 92px; /* 图标高度 */  
   border-radius: 50%; /* 圆形图标 */  
   background-color: #7de0f9; /* 示例颜色，你可以使用背景图片 */  
-  background-image: url('../../assets/button/huazuo8.png');  
+  background-image: url('../assets/button/huazuo8.png');  
   background-size: 60px; /* 保持图片的宽高比 */  
   background-position: center; /* 确保图片在元素内居中 */  
   background-repeat: no-repeat; /* 不重复图片 */  
@@ -124,7 +124,7 @@
   height: 92px; /* 图标高度 */  
   border-radius: 50%; /* 圆形图标 */  
   background-color: #7de0f9; /* 示例颜色，你可以使用背景图片 */  
-  background-image: url('../../assets/button/xisu.png');  
+  background-image: url('../assets/button/xisu.png');  
   background-size: 55px; /* 保持图片的宽高比 */  
   background-position: center; /* 确保图片在元素内居中 */  
   background-repeat: no-repeat; /* 不重复图片 */  
@@ -139,7 +139,7 @@
   height: 92px; /* 图标高度 */   
   border-radius: 50%; /* 圆形图标 */  
   background-color: #7de0f9; /* 示例颜色，你可以使用背景图片 */  
-  background-image: url('../../assets/button/shici.png');  
+  background-image: url('../assets/button/shici.png');  
   background-size: 75px; /* 保持图片的宽高比 */  
   background-position: center; /* 确保图片在元素内居中 */  
   background-repeat: no-repeat; /* 不重复图片 */  
@@ -154,19 +154,11 @@
   height: 92px; /* 图标高度 */   
   border-radius: 50%; /* 圆形图标 */  
   background-color: #7de0f9; /* 示例颜色，你可以使用背景图片 */  
-  background-image: url('../../assets/button/intro.png');  
+  background-image: url('../assets/button/intro.png');  
   background-size: 45px; /* 保持图片的宽高比 */  
   background-position: center; /* 确保图片在元素内居中 */  
   background-repeat: no-repeat; /* 不重复图片 */  
 } 
-
- 
-
-
-
-
-
-
 
 
 
@@ -180,7 +172,7 @@
     display: inline-flex; /* 使图片和文字并排显示 */  
     align-items: center; /* 垂直居中 */  
     padding: 10px 20px 10px 40px; /* 根据需要调整内边距，左侧留出图标的空间 */  
-    background-image: url('../../assets/button/home.png'); /* 设置图标路径 */  
+    background-image: url('../assets/button/home.png'); /* 设置图标路径 */  
     background-position: left center; /* 设置图标位置 */  
     background-repeat: no-repeat; /* 不重复背景图片 */  
     background-size: 61px 47px; /* 设置图标大小 */  

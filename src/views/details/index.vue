@@ -9,9 +9,9 @@
 
 <script setup>
    import {ref} from 'vue'
-   import Header from '../header/index.vue'
+   import Header from '../../components/header.vue'
    import Hero from '../hero/index.vue'
-   import Footer from '../footer/index.vue'
+   import Footer from '../../components/footer.vue'
 
 </script>
 <style scoped>  
