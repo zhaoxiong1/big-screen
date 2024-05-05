@@ -9,9 +9,24 @@
 
 <script setup>
    import {ref} from 'vue'
-   import Header from '../../components/header.vue'
+   import Header from '../header/index.vue'
    import Hero from '../hero/index.vue'
-   import Footer from '../../components/footer.vue'
+   import Footer from '../footer/index.vue'
+</script>
+<script>
+
+export default {
+  data() {
+    return {
+      id: this.$route.query.id,
+      type: this.$route.query.type
+    };
+  },
+  mounted(){
+  },
+  methods: {
+  },
+};
 
 </script>
 <style scoped>  

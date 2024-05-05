@@ -25,76 +25,76 @@
 
     <!--content 开始--->
     <div class="content">
-      <div class="item" @touchstart="handleTouchStart" @touchend="handleTouchEnd(1)">
+      <div class="item" @click="handleTouchEnd(1)">
         <img alt="Vue logo" src="../assets/cat_1.jpg">
       </div>
       <div class="item" @click="handleTouchEnd(2)">
         <img alt="Vue logo" src="../assets/cat_2.jpg">
       </div>
-      <div class="item">
+      <div class="item"  @click="handleTouchEnd(3)">
         <img alt="Vue logo" src="../assets/cat_3.jpg">
       </div>
-      <div class="item">
+      <div class="item"  @click="handleTouchEnd(4)">
         <img alt="Vue logo" src="../assets/cat_4.jpg">
       </div>
-      <div class="item">
+      <div class="item"  @click="handleTouchEnd(5)">
         <img alt="Vue logo" src="../assets/cat_5.jpg">
       </div>
-      <div class="item">
+      <div class="item"  @click="handleTouchEnd(6)">
         <img alt="Vue logo" src="../assets/cat_6.jpg">
       </div>
-      <div class="item">
+      <div class="item"  @click="handleTouchEnd(7)">
         <img alt="Vue logo" src="../assets/cat_7.jpg">
       </div>
-      <div class="item">
+      <div class="item"  @click="handleTouchEnd(8)">
         <img alt="Vue logo" src="../assets/cat_8.jpg">
       </div>
-      <div class="item">
+      <div class="item"  @click="handleTouchEnd(9)">
         <img alt="Vue logo" src="../assets/cat_9.jpg">
       </div>
-      <div class="item">
+      <div class="item"  @click="handleTouchEnd(10)">
         <img alt="Vue logo" src="../assets/cat_10.jpg">
       </div>
-      <div class="item">
+      <div class="item"  @click="handleTouchEnd(11)">
         <img alt="Vue logo" src="../assets/cat_11.jpg">
       </div>
-      <div class="item">
+      <div class="item"  @click="handleTouchEnd(12)">
         <img alt="Vue logo" src="../assets/cat_12.jpg">
       </div>
-      <div class="item">
+      <div class="item"  @click="handleTouchEnd(13)">
         <img alt="Vue logo" src="../assets/cat_13.jpg">
       </div>
-      <div class="item">
+      <div class="item"  @click="handleTouchEnd(14)">
         <img alt="Vue logo" src="../assets/cat_14.jpg">
       </div>
-      <div class="item">
+      <div class="item"  @click="handleTouchEnd(15)">
         <img alt="Vue logo" src="../assets/cat_15.jpg">
       </div>
-      <div class="item">
+      <div class="item"  @click="handleTouchEnd(16)">
         <img alt="Vue logo" src="../assets/cat_16.jpg">
       </div>
-      <div class="item">
+      <div class="item"  @click="handleTouchEnd(17)">
         <img alt="Vue logo" src="../assets/cat_17.jpg">
       </div>
-      <div class="item">
+      <div class="item" @click="handleTouchEnd(18)">
         <img alt="Vue logo" src="../assets/cat_18.jpg">
       </div>
-      <div class="item">
+      <div class="item" @click="handleTouchEnd(19)">
         <img alt="Vue logo" src="../assets/cat_19.jpg">
       </div>
-      <div class="item">
+      <div class="item" @click="handleTouchEnd(20)">
         <img alt="Vue logo" src="../assets/cat_20.jpg">
       </div>
-      <div class="item">
+      <div class="item" @click="handleTouchEnd(21)">
         <img alt="Vue logo" src="../assets/cat_21.jpg">
       </div>
-      <div class="item">
+      <div class="item" @click="handleTouchEnd(22)">
         <img alt="Vue logo" src="../assets/cat_22.jpg">
       </div>
-      <div class="item">
+      <div class="item" @click="handleTouchEnd(23)">
         <img alt="Vue logo" src="../assets/cat_23.jpg">
       </div>
-      <div class="item">
+      <div class="item" @click="handleTouchEnd(24)">
         <img alt="Vue logo" src="../assets/cat_24.jpg">
       </div>
 
@@ -136,12 +136,11 @@ export default {
     };
   },
   methods: {
-    handleTouchStart() {  
-      // 处理触摸开始事件  
-    },  
     handleTouchEnd(event) {  
       // 处理触摸结束事件  
-      this.$router.push('details');  
+      // this.$router.push('/details/'+event);  
+      this.$router.push({ path: '/details', query: { id: event ,type: 0} });
+
     },  
   },
 };
