@@ -136,6 +136,7 @@ export default {
     };
   },
   methods: {
+    
     handleTouchEnd(event) {  
       // 处理触摸结束事件  
       // this.$router.push('/details/'+event);  
