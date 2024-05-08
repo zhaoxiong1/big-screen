@@ -2,19 +2,29 @@
   <div class="container">
     <div class="content" :style="dynamicStyle">
       <span></span>
+
+      <video controls width="500">  
+      <source src="@/assets/bb.mp4" type="video/mp4">  
+      Your browser does not support the video tag.  
+    </video>  
     </div>
 
   </div>
 
 </template>
-
+<script setup>
+   import api from '@/api/api';
+  
+   
+</script>
 <script>
 export default {
   data() {
     return {
       id: this.$route.query.id,
       type: this.$route.query.type,
-      dynamicStyle: {}
+      dynamicStyle: {},
+
     };
   },
   // computed: {
@@ -46,7 +56,14 @@ export default {
     }
   },
   methods:{
+    onPlay() {  
+      console.log('Video is now playing.');  
+    },  
+    onPause() {  
+      console.log('Video is now paused.');  
+    },  
     updateDynamicStyle() {
+      this.getList();
       if (this.type && (this.type === '0' || this.type === 0)) {
         this.dynamicStyle = {
           backgroundImage: `url(${require(`../../assets/beijing/${this.id}.gif`)})`
@@ -56,9 +73,26 @@ export default {
 
       }
 
-    }
+	  // request({
+    //     url:  "/logout",
+    //     method: "get",
+    //   }); yarn add element-plus
+
+  
+    },
+    getList() {
+       let data = {};
+        api.getListAPI(data).then(res => {
+          alert('success'+res)
+
+          //数据处理
+        }).catch(err => 
+            console.log(err)
+          )
+        }
+      }
   }
-}
+
 
 </script>
 
