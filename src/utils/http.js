@@ -17,6 +17,7 @@ const http ={
         return request(config)
     },
     post(url,params){
+        alert(url);
         const config = {
             method: 'post',
             url:url
